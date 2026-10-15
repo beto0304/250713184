@@ -1,0 +1,38 @@
+body {
+    background-color:grey;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#lokasi h1 {
+    color:bisque;
+    text-align: center;
+    margin: 0;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(0, 68, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.3s ease;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+.link:hover{
+    background-color: rgb(33, 12, 89);
+    transform: scale(1.05);
+    align-items: center;
+} 
