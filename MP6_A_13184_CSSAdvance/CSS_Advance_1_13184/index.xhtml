@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Registrasi Data Mahasiswa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="formulir">
+        <h1>Formulir Pendaftaran KSL</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <table cellspacing="4" cellpadding="4" style="border-collapse:collapse; width:100%">
+                <tr>
+                    <td>
+                        <label for="namamhs"><strong>Nama</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="namamhs" name="namamhs" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="npmmhs"><strong>NPM</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="npmmhs" name="npmmhs" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="prodi"><strong>Program Studi</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="prodi" name="prodi">
+                            <option>Informatika</option>
+                            <option>Sistem Informasi</option>
+                            <option>Teknik Industri</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email"><strong>Alamat Email</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="email" name="email" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telepon"><strong>Nomor Telepon</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="telepon" name="telepon" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Menurutmu, Apa itu Linux?</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="jwb1" name="AIL" value="OS" /><label for="jwb1">Sistem Operasi (windows, dll)</label><br />
+                        <input type="radio" id="jwb2" name="AIL" value="Kernel" /><label for="jwb2">Kernel</label><br />
+                        <input type="radio" id="jwb3" name="AIL" value="Gak" /><label for="jwb3">Gak pernah dengar/gak tau</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Spek Laptop</strong>
+                        <p>1. Intel Core i3 gen 10</p>
+                        <p>2. Ram 8 gb</p>
+                        <p>3. Memory 20 gb</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Centang yang memenuhi</strong><br />
+                        <input type="checkbox" id="cpu" name="spek" value="CPU" /><label for="cpu">Pop</label>
+                        <input type="checkbox" id="ram" name="spek" value="RAM" /><label for="ram">RAM</label>
+                        <input type="checkbox" id="memory" name="spek" value="Memory" /><label for="memory">Memory</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="resume"><strong>Alasan Join KSL?</strong></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea id="resume" name="resume" rows="6" cols="23"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="simpan" value="Simpan" class="tombol" />
+        </form>
+    </div>
+</body>
+</html>
